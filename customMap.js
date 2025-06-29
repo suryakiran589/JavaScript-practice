@@ -1,8 +1,5 @@
 function arr(arg){
-    this.array=arg
-    
-
-    
+    this.array=arg  
 }
 arr.prototype.mapClone=function(fun)
     {
@@ -13,8 +10,6 @@ arr.prototype.mapClone=function(fun)
             
             i++
         }
-        // console.log(this.newarr)
-        // console.log(this.array)
         return newarr
         
     }
